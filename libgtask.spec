@@ -28,6 +28,8 @@ Summary:	Header files for libgtask library
 Summary(pl):	Pliki nag³ówkowe biblioteki libgtask
 Group:		Development/Libraries
 Requires:	%{name} = %{version}
+Requires:	glib-devel >= 2.3.0
+Requires:	libxml2-devel >= 2.5.0
 
 %description devel
 Header files for libgtask library.
