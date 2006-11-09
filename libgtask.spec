@@ -27,7 +27,7 @@ s³u¿±cej do komunikacji procesów z d³ugo wykonywanymi zadaniami.
 Summary:	Header files for libgtask library
 Summary(pl):	Pliki nag³ówkowe biblioteki libgtask
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	glib2-devel >= 2.3.0
 Requires:	libxml2-devel >= 2.5.0
 
@@ -41,7 +41,7 @@ Pliki nag³ówkowe biblioteki libgtask.
 Summary:	Static libgtask library
 Summary(pl):	Statyczna biblioteka libgtask
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libgtask library.
